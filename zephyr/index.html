@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zephyr: control Cielo Breez Max units from your browser toolbar</title>
+  <meta name="description" content="Power, mode, temperature, fan, presets and history for your Cielo Breez Max smart controllers. For Chrome and Edge.">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="icon" href="img/icon.svg" type="image/svg+xml">
+</head>
+<body>
+  <header class="site"><a class="brand" href="../" aria-label="PavWerk home"><picture><source srcset="../img/pavwerk-mark-reversed.svg" media="(prefers-color-scheme: dark)"><img src="../img/pavwerk-mark.svg" alt="" width="28" height="28"></picture><span>PAVWERK</span></a><nav><a href="../">All projects</a><a href="./">Zephyr</a><a href="privacy.html">Privacy</a></nav></header>
+  <main>
+    <div class="hero"><img src="img/icon.svg" alt="Zephyr icon"><h1>Zephyr</h1></div>
+    <p class="lead">A soft, gentle breeze, named for Zephyrus, the Greek god of the west wind. Zephyr puts your Cielo Breez Max mini-split controllers one click away in your browser toolbar.</p>
+    <!-- Store links: replace this paragraph with the two store buttons once Zephyr is published. -->
+    <p class="stores"><span class="status">Coming soon to the Chrome Web Store and Microsoft Edge Add-ons</span></p>
+
+    <div class="shots"><img src="img/rooms.png" alt="Zephyr showing three rooms with power, mode, temperature and fan controls"></div>
+
+    <h2>What it does</h2>
+    <ul>
+      <li>Finds every unit on your Cielo account by itself and builds each room&#x27;s controls from what the unit reports.</li>
+      <li>Turn a unit on or off, choose heat, cool, dry, fan or auto, and set the temperature.</li>
+      <li>Change the fan speed, the swing position and the preset.</li>
+      <li>Turn every unit off with one button.</li>
+      <li>See the indoor temperature and humidity of each room, and show one room&#x27;s temperature on the toolbar.</li>
+      <li>Keep a history: a snapshot every two minutes while the browser is open, with charts for 6 hours, 24 hours and 7 days, and a CSV export.</li>
+      <li>Celsius or Fahrenheit, up to four Cielo accounts, light or dark.</li>
+      <li>No Cielo unit at hand? Try it with built-in sample rooms.</li>
+    </ul>
+
+    <div class="shots"><img src="img/history.png" alt="Zephyr history chart with indoor temperature, setpoint and heat periods"><img src="img/dark.png" alt="Zephyr in dark mode"></div>
+
+    <h2>Which units it works with</h2>
+    <p>Zephyr is made for and tested with the Cielo Breez Max. Other Cielo units, such as the Breez Plus, Breez Eco or the Cielo Smart Thermostat, may work, because Zephyr builds its controls from what each unit reports, but they have not been tested.</p>
+
+    <h2>The Cielo API key</h2>
+    <p>Zephyr uses the official key that Cielo provides for home automation. You do not give Zephyr your Cielo password.</p>
+    <ol>
+      <li>Sign in at <a href="https://home.cielowigle.com/">home.cielowigle.com</a> with your Cielo Home account.</li>
+      <li>Open the menu at the top left and choose <b>Home Assistant</b>. The portal shows your API key.</li>
+      <li>Copy the key and paste it into Zephyr&#x27;s Settings tab.</li>
+    </ol>
+    <div class="card">
+      <p><b>Cielo&#x27;s rules for keys.</b> A key works with one app. You can make at most three keys in 30 days, and you need to revoke a key before you make a new one. Updates to Zephyr keep your key. In another browser or on another computer, try the same key first; if Cielo refuses it, make a new key. Revoking the key in the Cielo portal disconnects Zephyr.</p>
+    </div>
+    <div class="shots"><img src="img/key.png" alt="Zephyr&#x27;s step-by-step help for getting the Cielo API key"></div>
+
+    <h2>Private by design</h2>
+    <p>Zephyr talks only to Cielo&#x27;s own cloud service. Your key, your rooms and your history stay in your browser. PavWerk runs no server and receives nothing. <a href="privacy.html">Privacy policy</a>.</p>
+
+    <h2>Good to know</h2>
+    <ul>
+      <li>History is recorded only while the browser is running.</li>
+      <li>Changes made in the Cielo app or with the remote show up at the next refresh.</li>
+      <li>Zephyr is an independent project by PavWerk. It is not made, endorsed or supported by Cielo.</li>
+    </ul>
+
+    <h2>Support</h2>
+    <p><a href="mailto:pavwerk@gmail.com">pavwerk@gmail.com</a>. In Zephyr, Settings &gt; Support &gt; Copy diagnostic info gives us what we need; it never contains your key.</p>
+  </main>
+  <footer>Zephyr by PavWerk.</footer>
+</body>
+</html>
