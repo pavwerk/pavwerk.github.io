@@ -1,13 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
-  <rect width="128" height="128" rx="28" fill="#12306b"/>
-  <!-- eye -->
-  <path d="M10 64 Q64 12 118 64 Q64 116 10 64 Z" fill="#ffffff"/>
-  <!-- coin as the iris -->
-  <circle cx="64" cy="64" r="29" fill="#c98a00"/>
-  <circle cx="64" cy="64" r="24.5" fill="#f7b90f"/>
-  <!-- dollar sign -->
-  <g fill="none" stroke="#12306b" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M74 55 C74 46 54 46 54 56 C54 65 74 63 74 72 C74 82 54 82 54 73"/>
-    <path d="M64 44 V84"/>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128"><rect x="8" y="8" width="112" height="112" fill="#1A1A2E"/>
+<path d="M14 64 Q64 4 114 64 Q64 124 14 64 Z" fill="#FFFFFF"/>
+<circle cx="64" cy="64" r="26" fill="#FEBA00" stroke="#1A1A2E" stroke-width="5"/>
+<rect x="62" y="40" width="4" height="48" fill="#1A1A2E"/>
+<rect x="54" y="47" width="20" height="6" fill="#1A1A2E"/>
+<rect x="54" y="47" width="6" height="17" fill="#1A1A2E"/>
+<rect x="54" y="61" width="20" height="6" fill="#1A1A2E"/>
+<rect x="68" y="61" width="6" height="20" fill="#1A1A2E"/>
+<rect x="54" y="75" width="20" height="6" fill="#1A1A2E"/></svg>
