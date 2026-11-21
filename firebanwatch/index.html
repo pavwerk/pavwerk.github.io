@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FireBanWatch: provincial fire bans in Quebec and Ontario, in your browser toolbar</title>
+  <meta name="description" content="Is an open fire allowed? FireBanWatch checks provincial fire bans for up to five places in Quebec and Ontario against official government data. English and French.">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="icon" href="img/icon.png">
+  <link rel="alternate" hreflang="en" href="https://pavwerk.github.io/firebanwatch/">
+  <link rel="alternate" hreflang="fr" href="https://pavwerk.github.io/firebanwatch/fr.html">
+</head>
+<body>
+  <header class="site"><a class="brand" href="../" aria-label="PavWerk home"><picture><source srcset="../img/pavwerk-mark-reversed.svg" media="(prefers-color-scheme: dark)"><img src="../img/pavwerk-mark.svg" alt="" width="28" height="28"></picture><span>PAVWERK</span></a><nav><a href="../">All projects</a><a href="./">FireBanWatch</a><a href="privacy.html">Privacy</a><a href="fr.html" lang="fr" hreflang="fr">Français</a></nav></header>
+  <main>
+    <div class="hero"><img src="img/icon.png" alt="FireBanWatch icon"><h1>FireBanWatch</h1></div>
+    <p class="lead">Is an open fire allowed there right now? Provincial fire bans for up to five places in Quebec and Ontario, checked against official government data. In French, it is called VeilleFeux.</p>
+    <!-- Store links: add the Edge Add-ons link here when the store publishes it. Chrome comes later. -->
+    <p class="stores"><span>Coming soon to Microsoft Edge Add-ons. Chrome Web Store later.</span></p>
+
+    <div class="shots"><img src="img/bans-en.png" alt="FireBanWatch showing an open-fire ban at Val-des-Monts, Quebec, and no provincial ban at Ottawa" style="max-width:440px"></div>
+    <p class="small">The pictures show sample bans, not current conditions.</p>
+
+    <h2>What it does</h2>
+    <ul>
+      <li>Gives a clear answer for each place: open fires banned, no provincial ban, or could not check.</li>
+      <li>Names the ban and the date it took effect, with a link to the official decision.</li>
+      <li>Quebec: checks the ban on open fires in or near the forest and the ban on entering the forest.</li>
+      <li>Ontario: checks current Restricted Fire Zones and Emergency Area Orders, and shows the forest fire danger rating from April 1 to October 31.</li>
+      <li>Shows a red badge on the toolbar when a ban is in force at your first place.</li>
+      <li>Sends a desktop notification when a ban starts or ends at one of your places.</li>
+      <li>Keeps a link to your municipality's fire page on each card.</li>
+      <li>Works in English or French, and in light or dark mode.</li>
+    </ul>
+
+    <div class="shots"><img src="img/details-en.png" alt="A Restricted Fire Zone in Thunder Bay with an extreme fire danger rating" style="max-width:440px"></div>
+
+    <h2>Good to know</h2>
+    <ul>
+      <li>Municipal bans are not included. Many municipalities, campgrounds and parks ban fires on their own, often when the fire danger is high. Check your municipality before lighting a fire.</li>
+      <li>In Ontario, Restricted Fire Zones apply only inside the province's fire region, in the north. Most of southern Ontario, including Ottawa and Toronto, is outside it, so outdoor fire rules there come from the municipality.</li>
+      <li>The Quebec map is a visual representation of the ministry's decision. The decision published on Québec.ca is the official text.</li>
+      <li>Checks run only while the browser is running, every 30 minutes to every 6 hours.</li>
+      <li>FireBanWatch is not an official service. It is an independent project and is not affiliated with the Government of Québec, SOPFEU or the Government of Ontario.</li>
+    </ul>
+
+    <h2>Private by design</h2>
+    <p>There is no account and no sign-in. Your places and settings stay local, in your browser. For Quebec, the extension downloads the whole ban map and checks your places locally, so no location is sent. For Ontario, the coordinates of your Ontario places are sent to the province's fire map service. Read the <a href="privacy.html">privacy policy</a>.</p>
+
+    <h2>Data sources</h2>
+    <p>Quebec: <a href="https://donneesquebec.ca/recherche/dataset/mesures_preventives_feux_foret">Mesures préventives en cas de feux de forêt</a>, Ministère de la Sécurité publique du Québec, via Données Québec (CC BY 4.0). Ontario: Forest Fire Info Map, Ministry of Natural Resources (Open Government Licence – Ontario). Place search by <a href="https://open-meteo.com/">Open-Meteo.com</a> (CC BY 4.0).</p>
+
+    <h2>Support</h2>
+    <p>Questions or problems: <a href="mailto:pavwerk@gmail.com">pavwerk@gmail.com</a></p>
+  </main>
+  <footer>FireBanWatch by PavWerk.</footer>
+</body>
+</html>
